@@ -132,12 +132,18 @@ a {
     padding : 16px;
 }
 
+.call-to-action-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .call-to-action {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 40px;
-    padding: 16px;
+    margin: 40px 50px;
+    padding : 0 16px;
+    max-width: 600px;
 }
 
 .call-to-action-text {

@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto;
+}
+
+.header {
+    display : flex;
+    justify-content: space-around;
+    
+}
+
+.header,.blurb,.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 16px;
+    color: white;
+}
+
+ul {
+    display : flex;
+    gap : 8px;
+    list-style-type: none;  
+}
+
+a { 
+    text-decoration: none;
+}
+

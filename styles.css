@@ -26,10 +26,32 @@ body {
     font-size: 48px;
     font-weight: 900;
 }
-
+.blurb {
+    display: flex;
+}
+.blurb-right {
+    background-color: #E5E7EB;
+    min-width: 150px;
+    min-height: 100px;
+    margin : 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blurb-right p {
+    color: black;
+    padding : 16px;
+}
+.blurb-left {
+    margin-left: 40px;
+    margin-bottom: 16px;
+}
 
 button {
-    color: #3882F6;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding : 5px 20px;
 }
 
 .call-to-action {

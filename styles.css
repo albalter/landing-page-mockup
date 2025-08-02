@@ -131,3 +131,20 @@ a {
     font-weight: bold;
     padding : 16px;
 }
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+    padding: 16px;
+}
+
+.call-to-action-text {
+    max-width: 500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
